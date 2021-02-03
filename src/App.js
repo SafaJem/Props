@@ -1,7 +1,7 @@
 
 import {Nav,Navbar, FormControl,Form, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Component2 from './profile/profile2'
 import './App.css';
 import Component from './profile/Profilecomponent';
 function App() {
@@ -32,7 +32,7 @@ function App() {
         <div>
           <img src="./devp.jpg" alt="profil" style={{width:300 , height:200}}/>
         </div> 
-        
+        <Component2/>    
 </Component>
   </div>
   </div>
